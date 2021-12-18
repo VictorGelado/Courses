@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(223, 215, 215);
+}
+
+div {
+    font: normal 15pt Arial;
+    width: 700px;
+    height: 800px;
+    background: rgb(212, 202, 202);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-shadow: 1px 1px 3px 2px black;
+}
+
+div h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 25pt;
+    text-align: center;
+}
+
+div input {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div p {
+    text-align: center;
+    color: rgb(122, 61, 235);
+}
+
+div h3 {
+    text-align: center;
+    color: rgb(132, 89, 212);
+}       

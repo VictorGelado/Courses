@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula ex009</title>
+    <style>
+        div {
+            margin-top: 15px;
+            width: 800px;
+            height: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            background-color: rgb(62, 180, 216);
+        }
+        div input {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Sistema de Multas</h1> 
+        Velocidade do carro <input type="number" name="velName" id="velId" min="0" máx="300" /> Km/h. <br/>
+        <input type="button" value="Verificar" onclick="calcular()">
+        <h2 id="res"> </h2>
+    </div> 
+    <script>
+        
+        function calcular() {   
+            var txtv = document.getElementById('velId')
+            var velNum = Number(txtv.value) 
+            var res1 = document.getElementById('res')
+            res1.innerHTML = `<p>Sua velocidade atual e de ${velNum}</p>`
+            if (velNum > 60) {
+               res1.innerHTML += `<p>Você ultrapassou a velocidade permitida</p>` 
+            }
+            res1.innerHTML += 'Dirija sempre com segurança'      
+        } 
+    </script>       
+</body >
+</html>

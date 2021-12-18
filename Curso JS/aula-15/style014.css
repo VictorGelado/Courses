@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(70, 142, 236);
+    font: normal  15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    padding: 15px;
+    margin: auto;
+    width: 520px;
+    height: 650;
+    border-radius: 10px;
+}
+
+section input {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 0px;
+}
+
+select#selAdi {
+    width: 150px;
+}
+
+footer {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+

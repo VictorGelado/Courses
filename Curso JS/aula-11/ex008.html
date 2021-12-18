@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula ex008</title>
+    <style>
+        div {
+            width: 600px;
+            height: 800px;
+            background-color: #00d6fc;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        body {
+            color: black;
+            background-color: black;
+            font: normal 17pt Arial;
+        }
+        div iframe {
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-ompXVUnpTE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+        <script>
+            var vel = 31
+            document.writeln(`Sua velocidade é de ${vel}Km/h.`)
+            if (vel > 30) {
+                document.write(`Você ultrapassou a velocidade permitida. MULTADO!!!!!`)
+                document.write('Você deve se dirigir ao Detran e pagar uma multa de R$5.000,00 ')
+                document.write('Você vai morrer cedo misera ruim,desgraçado')
+            } else {
+                document.write('Você é um bom menino desgraçado')         
+            }
+            document.writeln('Dirija sempre usando cinto de segurança filho da pura miserável')
+            
+        </script>
+    </div>
+</body>
+</html>
