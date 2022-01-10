@@ -5,7 +5,7 @@
 * ⚠️ Any more complex and/or advanced project done in a course will have its own repository.
 
 ---
-<h3 align="center">My first HTML project</h3>
+<h3 align="center">Example: My first HTML project</h3>
 <div><img src="./Curso-HTML5/course-html.gif" alt="Course HTML"></div>
 
 ---
