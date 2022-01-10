@@ -6,7 +6,7 @@
 
 ---
 <h3 align="center">My first HTML project</h3>
-<div><img src="./Curso-HTML5/how-to-use.gif" alt="Course HTML"></div>
+<div><img src="./Curso-HTML5/course-html.gif" alt="Course HTML"></div>
 
 ---
 Made by VictorGelado 😏
